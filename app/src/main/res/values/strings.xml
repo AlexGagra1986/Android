@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="One">1</string>
+    <string name="menu">settings</string>
+    <string name="eng">eng</string>
+    <string name="simple">simp</string>
+    <string name="credit">cred</string>
+    <string name="cripto">cripto</string>
+</resources>
