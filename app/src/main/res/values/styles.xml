@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SimpleButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:backgroundTint">@color/buttons</item>
+    </style>
+
+    <style name="specButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:backgroundTint">@color/specButton</item>
+    </style>
+
+    <style name="operations">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">40dp</item>
+        <item name="android:backgroundTint">@color/operations</item>
+    </style>
+
+    <style name="SimpleButton_horizont">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:backgroundTint">@color/buttons</item>
+    </style>
+
+    <style name="specButton_Horizont">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:backgroundTint">@color/specButton</item>
+    </style>
+
+    <style name="operations_Horizont">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:backgroundTint">@color/operations</item>
+    </style>
+
+</resources>
