@@ -12,6 +12,7 @@ public class Calculator implements Parcelable{
     private int choice;
     private Base base;
 
+
     protected Calculator(Parcel in) {
         buttonOne = in.readInt();
         buttonTwo = in.readInt();
@@ -42,6 +43,7 @@ public class Calculator implements Parcelable{
         dest.writeInt(choice);
     }
 
+
     private enum Base {
         firstInput,
         operations,
@@ -51,6 +53,8 @@ public class Calculator implements Parcelable{
 
     public Calculator() {
         base = Base.firstInput;
+
+
     }
 
     public void onNumPressed(int buttonId) {
@@ -111,7 +115,7 @@ public class Calculator implements Parcelable{
             stringBuilder.setLength(0);
             switch (choice) {
                 case R.id.plus:
-                    stringBuilder.append(buttonOne + buttonTwo);
+                    stringBuilder.append(buttonOne + buttonOne);
                     break;
                 case R.id.minus:
                     stringBuilder.append(buttonOne - buttonTwo);
@@ -176,6 +180,8 @@ public class Calculator implements Parcelable{
         base = Base.firstInput;
         stringBuilder.setLength(0);
     }
+
+
 }
 
 
