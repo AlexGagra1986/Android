@@ -72,6 +72,10 @@ public class MainActivity extends AppCompatActivity {
                  R.id.prosent
         };
 
+        int[] sP = new int [] {
+          R.id.prosent
+        };
+
 
 
         text = findViewById(R.id.text);
@@ -94,6 +98,9 @@ public class MainActivity extends AppCompatActivity {
         };
 
 
+
+
+
         for (int i = 0; i < numbers.length; i++) {
             findViewById(numbers[i]).setOnClickListener(numberButtonClickListener);
         }
@@ -101,6 +108,9 @@ public class MainActivity extends AppCompatActivity {
         for (int j = 0; j < actions.length; j++) {
             findViewById(actions[j]).setOnClickListener(actionButtonOnclickListener);
         }
+
+
+
         findViewById(R.id.ac).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -110,7 +120,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void calcSp(TextView text, int getsP) {
+        text.setText(String.format(Locale.getDefault(),"%d",getsP));
     }
+
+}
 
 
 
