@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="textVerticalLayout_width">354dp</dimen>
+    <dimen name="textVerticalLayout_heigh">150dp</dimen>
+    <dimen name="textVerticalLayout_marginTop">90dp</dimen>
+    <dimen name="textVerticalSizeForText">10dp</dimen>
+
+    <dimen name="VerticalLayout_width">wrap_content</dimen>
+    <dimen name="VerticalLayout_height">403dp</dimen>
+    <dimen name="VerticalLayout_marginBottom">36dp</dimen>
+
+    <dimen name="textHorizontLayout_width">665dp</dimen>
+    <dimen name="textHorizontLayout_heigh">59dp</dimen>
+    <dimen name="textHorizontLayout_marginTop">90dp</dimen>
+    <dimen name="HorizontTextVerticalSizeForText">10dp</dimen>
+    <dimen name="HorizontTextLayout_margin">5dp</dimen>
+
+    <dimen name="VerticalBottonLayout_width">80dp</dimen>
+    <dimen name="VerticalButtonLayout_height">73dp</dimen>
+    <dimen name="VerticalButtonlayout_margin">5dp</dimen>
+    <dimen name="VerticalButtonTextSize">20dp</dimen>
+
+    <dimen name="VerticalBottonZeroLayout_width">162dp</dimen>
+    <dimen name="VerticalButtonZeroLayout_height">73dp</dimen>
+    <dimen name="VerticalButtonZeroLayout_margin">5dp</dimen>
+    <dimen name="VerticalButtonZeroTextSize">20dp</dimen>
+
+    <dimen name="HorizontBottonLayout_width">80dp</dimen>
+    <dimen name="HorizontButtonLayout_height">50dp</dimen>
+    <dimen name="HorizontButtonlayout_margin">20dp</dimen>
+    <dimen name="HorizontButtonTextSize">20dp</dimen>
+</resources>
