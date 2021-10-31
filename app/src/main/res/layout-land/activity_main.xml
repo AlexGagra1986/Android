@@ -1,162 +1,194 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/pic1"
     android:gravity="center"
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="17dp"
-        android:layout_marginBottom="2dp"
-        android:background="@drawable/text"
-        android:gravity="right|center_vertical"
-        android:paddingLeft="8dp"
-        android:paddingTop="8dp"
-        android:paddingRight="16dp"
-        android:paddingBottom="8dp"
-        android:textSize="20sp" />
+<!--    <TextView-->
+<!--        android:id="@+id/text"-->
+<!--        style="@style/textHorizont"-->
+<!--        android:layout_width="647dp"-->
+<!--        android:layout_height="73dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/constraintLayout"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.511"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.39">-->
+
+<!--    </TextView>-->
+
+<!--&lt;!&ndash;    <androidx.constraintlayout.widget.ConstraintLayout&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/constraintLayout"&ndash;&gt;-->
+<!--&lt;!&ndash;        style="@style/VerticalConstraintLayout"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="612dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="296dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintBottom_toBottomOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:layout_constraintStart_toStartOf="parent">&ndash;&gt;-->
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="1dp"
-        >
-        <Button
-            android:id="@+id/ac"
-            style="@style/specButton_Horizont"
-            android:text="ac"></Button>
-        <Button
-            android:id="@+id/plusMinus"
-            style="@style/specButton_Horizont"
-            android:text="+-"></Button>
-        <Button
-            android:id="@+id/prosent"
-            style="@style/specButton_Horizont"
-            android:text="%"></Button>
-        <Button
-            android:id="@+id/division"
-            style="@style/operations_Horizont"
-            android:text="/"></Button>
-    </LinearLayout>
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/ac"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/ac"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/btn3"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/plusMinus"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="24dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/plusMinus"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintHorizontal_bias="0.0"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/prosent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/prosent"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="48dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/procent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/ac"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/division"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/division"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/multiply"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/prosent" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn7"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="2dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/seven"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/btn4" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn8"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="2dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/eight"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/btn7"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/btn5" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn9"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="2dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/nine"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/btn8"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/btn6" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/multiply"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="16dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/multiply"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/btn6"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/plusMinus" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn4"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="13dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/four"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/btn1" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn5"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="8dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/five"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/btn4"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/btn2" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn6"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="13dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/six"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/btn5"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/btn3" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/minus"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="9dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/minus"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintEnd_toEndOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintHorizontal_bias="0.106"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/division"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/plusMinus" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn1"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/one"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn2"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/two"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/btn1"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/btn3"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/three"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/btn2"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toTopOf="parent" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/plus"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginStart="16dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/plus"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/btn9"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/multiply" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/zero"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="585dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="58dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/zero"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toStartOf="parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/btn8" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/comma"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/comma"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/plus"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/division" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <com.google.android.material.button.MaterialButton&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/equals"&ndash;&gt;-->
+<!--&lt;!&ndash;            style="@style/HorizontButton"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="@string/equally"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintStart_toEndOf="@+id/comma"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:layout_constraintTop_toBottomOf="@+id/minus" />&ndash;&gt;-->
 
 
-    <LinearLayout
-
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="1dp"
-        android:layout_marginBottom="1dp"
-        >
-        <Button
-            android:id="@+id/btn1"
-            style="@style/SimpleButton_horizont"
-            android:text="1"></Button>
-
-        <Button
-            android:id="@+id/btn2"
-            style="@style/SimpleButton_horizont"
-            android:text="2"></Button>
-
-        <Button
-            android:id="@+id/btn3"
-            style="@style/SimpleButton_horizont"
-            android:text="3"></Button>
-        <Button
-            android:id="@+id/multiply"
-            style="@style/operations_Horizont"
-            android:text="*"></Button>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="0dp"
-        android:layout_marginBottom="0dp">
-        <Button
-            android:id="@+id/btn4"
-            style="@style/SimpleButton_horizont"
-            android:text="4"></Button>
-
-        <Button
-            android:id="@+id/btn5"
-            style="@style/SimpleButton_horizont"
-            android:text="5"></Button>
-
-        <Button
-            android:id="@+id/btn6"
-            style="@style/SimpleButton_horizont"
-            android:text="6"></Button>
-        <Button
-            android:id="@+id/minus"
-            style="@style/operations_Horizont"
-            android:text="-"
-            ></Button>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="0dp"
-        android:layout_marginBottom="0dp">
-        <Button
-            android:id="@+id/btn7"
-            style="@style/SimpleButton_horizont"
-            android:text="7"></Button>
-        <Button
-            android:id="@+id/btn8"
-            style="@style/SimpleButton_horizont"
-            android:text="8"></Button>
-
-        <Button
-            android:id="@+id/btn9"
-            style="@style/SimpleButton_horizont"
-            android:text="9"
-
-            ></Button>
-        <Button
-            android:id="@+id/plus"
-            android:text="+"
-            style="@style/operations_Horizont"
-            ></Button>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="0dp"
-        android:layout_marginBottom="0dp" >
-
-        <Button
-            android:id="@+id/zero"
-            android:layout_weight="2"
-            style="@style/SimpleButton_horizont"
-            android:text="0"></Button>
-
-        <Button
-            android:id="@+id/point"
-            android:text=","
-            style="@style/operations_Horizont"
-            ></Button>
-        <Button
-            android:id="@+id/equals"
-            style="@style/operations_Horizont"
-            android:text="="></Button>
-    </LinearLayout>
+<!--&lt;!&ndash;    </androidx.constraintlayout.widget.ConstraintLayout>&ndash;&gt;-->
 
 
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

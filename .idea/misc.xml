@@ -6,9 +6,9 @@
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26197916666666665" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.26197916666666665" />
         <entry key="app/src/main/res/drawable/text.xml" value="0.21197916666666666" />
-        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.165" />
         <entry key="app/src/main/res/layout-port/activity_main_horizont.xml" value="0.18070652173913043" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.165" />
         <entry key="app/src/main/res/layout/activity_main_horizont.xml" value="0.18070652173913043" />
         <entry key="app/src/main/res/layout/credit.xml" value="0.11770833333333333" />
         <entry key="app/src/main/res/layout/cripto.xml" value="0.11770833333333333" />

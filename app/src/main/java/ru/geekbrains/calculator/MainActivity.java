@@ -5,8 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.Locale;
@@ -18,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     private final static String KeyCounters = "Counters";
 
 
-    // Сохранение данных
+//     Сохранение данных
     @Override
     public void onSaveInstanceState(@NonNull Bundle instanceState) {
         super.onSaveInstanceState(instanceState);
