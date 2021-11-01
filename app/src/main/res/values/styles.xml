@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="VerticalButton">
+        <item name="android:layout_width">@dimen/VerticalBottonLayout_width</item>
+        <item name="android:layout_height">@dimen/VerticalButtonLayout_height</item>
+        <item name="android:layout_margin">@dimen/VerticalButtonlayout_margin</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/VerticalButtonTextSize</item>
+        <item name="android:backgroundTint">@color/DayButtonColor</item>
+    </style>
+
+    <style name="VerticalButtonZero">
+        <item name="android:layout_width">@dimen/VerticalBottonZeroLayout_width</item>
+        <item name="android:layout_height">@dimen/VerticalButtonZeroLayout_height</item>
+        <item name="android:layout_margin">@dimen/VerticalButtonZeroLayout_margin</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/VerticalButtonTextSize</item>
+        <item name="android:backgroundTint">@color/DayButtonColor</item>
+    </style>
+
+    <style name="HorizontButton">
+        <item name="android:layout_width">@dimen/HorizontBottonLayout_width</item>
+        <item name="android:layout_height">@dimen/HorizontButtonLayout_height</item>
+        <item name="android:layout_margin">@dimen/HorizontButtonlayout_margin</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/HorizontButtonTextSize</item>
+        <item name="android:backgroundTint">@color/DayButtonColor</item>
+    </style>
+    <style name="HorizontSpecialButton">
+        <item name="android:layout_width">@dimen/HorizontBottonLayout_width</item>
+        <item name="android:layout_height">@dimen/HorizontButtonLayout_height</item>
+        <item name="android:layout_margin">@dimen/HorizontButtonlayout_margin</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/HorizontButtonTextSize</item>
+        <item name="android:backgroundTint">@color/DayButtonColor</item>
+    </style>
+
+</resources>
+
