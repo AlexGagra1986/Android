@@ -19,5 +19,6 @@
     <string name="zero">0</string>
     <string name="comma">,</string>
     <string name="equally">=</string>
-
+    <string name="menu_1">Sittings</string>
+    <string name="exit">Exit</string>
 </resources>
