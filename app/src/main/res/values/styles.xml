@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="VerticalButton">
+        <item name="android:layout_width">@dimen/VerticalBottonLayout_width</item>
+        <item name="android:layout_height">@dimen/VerticalButtonLayout_height</item>
+        <item name="android:layout_margin">@dimen/VerticalButtonlayout_margin</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/VerticalButtonTextSize</item>
+        <item name="android:backgroundTint">@color/DayButtonColor</item>
+    </style>
+
+    <style name="VerticalButtonZero">
+        <item name="android:layout_width">@dimen/VerticalBottonZeroLayout_width</item>
+        <item name="android:layout_height">@dimen/VerticalButtonZeroLayout_height</item>
+        <item name="android:layout_margin">@dimen/VerticalButtonZeroLayout_margin</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/VerticalButtonTextSize</item>
+        <item name="android:backgroundTint">@color/DayButtonColor</item>
+    </style>
+
+    <style name="HorizontButton">
+        <item name="android:layout_width">@dimen/HorizontBottonLayout_width</item>
+        <item name="android:layout_height">@dimen/HorizontButtonLayout_height</item>
+        <item name="android:layout_margin">@dimen/HorizontButtonlayout_margin</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/HorizontButtonTextSize</item>
+        <item name="android:backgroundTint">@color/DayButtonColor</item>
+    </style>
+    <style name="HorizontSpecialButton">
+        <item name="android:layout_width">@dimen/HorizontBottonLayout_width</item>
+        <item name="android:layout_height">@dimen/HorizontButtonLayout_height</item>
+        <item name="android:layout_margin">@dimen/HorizontButtonlayout_margin</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/HorizontButtonTextSize</item>
+        <item name="android:backgroundTint">@color/DayButtonColor</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="PrimaryText" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@color/textPrimary</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:padding">8dp</item>
+
+    </style>
+
+    <style name="SecondaryText" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textColor">@color/textSecondary</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <style name="Theme.Lesson5" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/fuchsia</item>
+        <item name="colorOnPrimary">@color/colorPrimary</item>
+
+        <item name="android:windowBackground">@color/coral</item>
+        <item name="primaryTitleColor">@color/dark_orange</item>
+    </style>
+
+</resources>
