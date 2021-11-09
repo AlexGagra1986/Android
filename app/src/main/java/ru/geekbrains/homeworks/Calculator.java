@@ -10,7 +10,6 @@ public class Calculator implements Parcelable{
     private int choice;
     private Base base;
 
-
     protected Calculator(Parcel in) {
         buttonOne = in.readInt();
         buttonTwo = in.readInt();
@@ -40,16 +39,12 @@ public class Calculator implements Parcelable{
         dest.writeInt(buttonTwo);
         dest.writeInt(choice);
     }
-
-
-
     private enum Base {
         firstInput,
         operations,
         secondInput,
         result
     }
-
     public Calculator() {
         base = Base.firstInput;
     }
@@ -104,8 +99,6 @@ public class Calculator implements Parcelable{
         }
 
     }
-
-
     public void onActionPressed(int actionId) {
         if (actionId == R.id.equals && base == Base.secondInput && stringBuilder.length() > 0) {
             buttonTwo = Integer.parseInt(stringBuilder.toString());
@@ -124,6 +117,8 @@ public class Calculator implements Parcelable{
                 case R.id.division:
                     stringBuilder.append(buttonOne / buttonTwo);
                     break;
+                case R.id.prosent:
+                    stringBuilder.append(buttonOne * buttonTwo / 100);
             }
 
         } else if (stringBuilder.length() > 0 && base == Base.firstInput && actionId != R.id.equals) {
@@ -133,8 +128,11 @@ public class Calculator implements Parcelable{
         }
     }
 
+
+
     public String getText() {
         StringBuilder str = new StringBuilder();
+
         switch (base) {
             default:
                 return stringBuilder.toString();
@@ -159,6 +157,8 @@ public class Calculator implements Parcelable{
         }
     }
 
+
+
     private char getOperationChar() {
         switch (choice) {
             case R.id.plus:
@@ -167,12 +167,14 @@ public class Calculator implements Parcelable{
                 return '-';
             case R.id.multiply:
                 return '*';
+            case R.id.prosent:
+                return '%';
             case R.id.division:
             default:
                 return '/';
-
         }
     }
+
 
     public void reset() {
         base = Base.firstInput;

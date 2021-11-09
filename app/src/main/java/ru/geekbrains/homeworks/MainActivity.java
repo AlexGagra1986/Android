@@ -6,12 +6,11 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.AppCompatDelegate;
-import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -90,11 +89,13 @@ public class MainActivity extends AppCompatActivity {
                 R.id.equals,
                 R.id.prosent
         };
+        int[] actionsForSingle = new int[]{
+                R.id.num
+        };
 
 
         text = findViewById(R.id.text);
         calculator = new Calculator();
-
 
 
         View.OnClickListener numberButtonClickListener = view -> {
@@ -106,7 +107,6 @@ public class MainActivity extends AppCompatActivity {
             calculator.onActionPressed(view.getId());
             text.setText(calculator.getText());
         };
-
 
         for (int i = 0; i < numbers.length; i++) {
             findViewById(numbers[i]).setOnClickListener(numberButtonClickListener);

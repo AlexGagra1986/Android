@@ -30,17 +30,19 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayoutSpecial"
-        android:layout_width="231dp"
-        android:layout_height="164dp"
-        android:layout_marginEnd="212dp"
+        android:layout_width="230dp"
+        android:layout_height="198dp"
+        android:layout_marginEnd="136dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.655">
+        app:layout_constraintVertical_bias="0.741">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/ac"
             style="@style/HorizontSpecialButton"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
             android:text="@string/ac"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -112,6 +114,14 @@
             android:text="@string/equally"
             app:layout_constraintStart_toEndOf="@+id/comma"
             app:layout_constraintTop_toBottomOf="@+id/prosent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            tools:layout_editor_absoluteX="6dp"
+            tools:layout_editor_absoluteY="154dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

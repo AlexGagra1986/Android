@@ -27,4 +27,5 @@
     <string name="system_theme">Use system theme</string>
     <string name="battery_saver_theme">Battery saver theme</string>
     <string name="themeText">switch Dark/Light Theme</string>
+    <string name="num">bin</string>
 </resources>
